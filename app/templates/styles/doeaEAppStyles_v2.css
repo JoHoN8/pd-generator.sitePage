@@ -1,0 +1,148 @@
+﻿/*
+  v1.2
+  5/31/16
+  top ribbon,form banner, site template
+*/
+/**************global*************************/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+/***************style to fix the top ribbon*******************/
+/*top choose buttons*/
+div#doeaAppNavigation{
+  width:100%;
+  margin:0;
+  padding:0;
+  background-color: #0072c6;
+  border-top:1px solid #4C9CD7;
+  min-width:700px;
+
+}
+div#doeaAppNavigation:after{
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+#doeaAppNavigation.buttonsNotShowing {
+  display:none;
+}
+ul.navList{
+  list-style: none;
+  padding: 3px 15px;
+  margin: 0;
+  height: 40px;
+}
+.navList li {
+  font-family: "SegoeUI-SemiLight-final","Segoe UI SemiLight","Segoe UI WPC Semilight","Segoe UI",Segoe,Tahoma,Helvetica,Arial,sans-serif;
+  font-size: 1.3em;
+  border-right: 1px solid #4C9CD7;
+  float: left;
+}
+.navList a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 0.5em 1em;
+}
+.navList a:visited, .navList a:active {
+  text-decoration: none;
+  color: #fff;
+}
+.navList a:hover {
+  background-color: #5CBDBD;
+}
+/*print screen area*/
+@media print {
+  #doeaAppNavigation {display:none;}
+}
+/*user info banner*/
+#formTitleBanner {
+  text-align:center;
+  width:568px;
+  margin:0 auto;
+}
+#formTitleBanner h1 {
+  color: #0072c6;
+  font-family: Calibri;
+  font-size:2.3em;
+  line-height:1.4em;
+}
+#formUserInfoLeft{
+  list-style-type:none;
+  float:left;
+  padding-left:0;
+  text-align:left;
+}
+#formUserInfoRight{
+  list-style-type:none;
+  float: right;
+  text-align:right;
+}
+#formInfoListContainer{
+  width:540px;
+  margin:0 auto;
+  height: 80px;
+  font-size: 1.15em;
+}
+#formUserInfoName{
+  text-align:center;
+  color:black;
+  font-size: 1.7em;
+}
+#formInfoBanner{
+  text-align:center;
+  background:aliceblue;
+  border-radius:15px;
+  border:1px #ababab solid;
+  width:568px;
+  margin:0 auto;
+  padding: 15px;
+  font-size: 14px;
+}
+#formInfoBanner ul{
+  margin:2px 0 5px
+}
+#formDisclaimer{
+  color: red;
+  text-align:right
+}
+/*styles for top navigation*/
+li.dynamic {
+  line-height: 1.7em;
+  font-size: 1em;
+  border-bottom: solid 1px #9EC5FF;
+}
+
+li.dynamic:last-child {
+  border-bottom: none;
+}
+
+li .dynamic :hover{background-color:#EBEBEB}
+
+#promotedlinksbody_WPQ4 {
+    margin: 0px auto;
+    width: 1120px;
+}
+#promotedlinksbody_WPQ8{
+  margin: 0 auto;
+  width: 800px;
+}
+/*styles for sites templates*/
+.ms-webpartPage-root {
+  border-spacing: 5px;
+}
+.ms-webpart-titleText.ms-webpart-titleText, .ms-webpart-titleText > a {
+     font-size: 24pt;
+     color:  #0072c6;
+     font-weight: Bold;
+     font-family: calibri;
+}
+div#centerRowLeft, div#centerRowRight {
+  padding-top: 10px;
+}

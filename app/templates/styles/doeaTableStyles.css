@@ -1,0 +1,58 @@
+#ppaTable h2 {
+	  display: table-cell;
+	  padding: 7px 15px;
+	  margin: 0;
+	  background: #6377B2;
+	  color: white;
+	  font-size: 100%;
+	  line-height: 1.4em;
+	  word-spacing: 0;
+	  font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+	  font-weight: bold;
+	  border-top-left-radius: 5px;
+	  border-top-right-radius: 5px;
+}
+
+table#ppaTable{
+	border-collapse:collapse;
+	border-spacing:0;
+	width:70%;
+	margin: 0 auto;
+	border:0;
+}
+
+#ppaTable tbody, #ppaTable thead { border: 2px solid #F2F6FC; }
+
+#ppaTable thead { border-bottom: none; }
+
+#ppaTable th, #ppaTable tbody td { background: #fff; }
+
+#ppaTable thead th { 
+	background: #fff; 
+	padding-top: 4px; 
+	color: #0072c6; 
+	font-weight: Bold;
+	border-bottom: 2px solid #0072c6;
+	font-size: 1.4em;
+}
+
+#ppaTable tbody td {
+	text-align:center;
+	font-size: 1em;
+	padding:6px;
+}
+
+#ppaTable tbody tr.even td { background: #F2F6FC; }
+
+#ppaTable th.column1 {width: 22%;}
+
+#ppaTable th.column3 {width: 35%;}
+
+#ppaTable td.informative {
+	font-weight: 500;
+	text-decoration: underline;
+	font-size: 1.1em;
+	color: rgba(210, 146, 75, 0.98);
+}
+
+#ppaTable tbody tr td:nth-child(1) {border-right: 1px solid #F2F6FC;}

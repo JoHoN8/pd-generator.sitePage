@@ -1,0 +1,116 @@
+/*
+v1.1
+1/25/16
+styles for top navigation
+*/
+li.dynamic {
+	line-height: 1.7em;
+	font-size: 1em;
+	border-bottom: solid 1px #9EC5FF;
+}
+
+li.dynamic:last-child {
+	border-bottom: none;
+}
+
+li .dynamic :hover{background-color:#EBEBEB}
+
+#promotedlinksbody_WPQ4 {
+    margin: 0px auto;
+    width: 1120px;
+}
+#promotedlinksbody_WPQ8{
+	margin: 0 auto;
+	width: 800px;
+}
+
+/*styles for sites old templates*/
+
+.ms-webpartPage-root {
+	border-spacing: 5px;
+}
+
+.ms-webpart-titleText.ms-webpart-titleText, .ms-webpart-titleText > a {
+     font-size: 24pt;
+     color:  #0072c6;
+     font-weight: Bold;
+}
+
+
+div#centerRowLeft, div#centerRowRight {
+	padding-top: 10px;
+}
+
+
+/*styles for staff directory*/
+#staffDirectory table{width:100%;height:100%}
+#staffDirectory td{padding:4px}
+
+#staffDirectory thead {
+	background: none repeat scroll 0% 0% aliceblue;
+}
+
+#staffDirectory table tr:nth-child(even) {
+	background: #F5F5F5;
+}
+
+/*styles for new staff directory*/
+#staffDirContainer {
+  margin: 0;
+  padding: 0;
+  min-width:400px;
+}
+#staffDirContainer table {
+  border-collapse:collapse;
+	border-spacing:0;
+	width:100%;
+	margin:0;
+	border:1px solid #0072c6;
+  table-layout: fixed;
+}
+#staffDirContainer h1 {
+	  margin: 0;
+	  font-size: 1.3em;
+    background: #0072c6;
+    color: #e5e5cc;
+	  font-weight: bold;
+    letter-spacing: 3px;
+}
+#staffDirContainer thead { border-bottom: none; }
+#staffDirContainer th, #staffDirContainer tbody td { background: #fff; }
+#staffDirContainer thead th { 
+	background: #0072c6; 
+	color: #e5e5cc; 
+	font-size: 1em;
+  text-align:center;
+}
+#staffDirContainer tbody td {
+	text-align:center;
+	font-size: 1.1em;
+	padding:6px;
+}
+
+#staffDirContainer tbody tr.even td { background: #F2F6FC; }
+
+#staffDirContainer td.header {
+  padding: 2px 0 2px 0;
+	font-size: 1.3em;
+	color: #0072c6;
+  text-align: left;
+  font-weight: 600;
+  background: #DDEFFF;
+  letter-spacing: 1px;
+}
+#staffDirContainer td.subHeader {
+	font-weight: 800;
+  padding: 5px 0 5px 0;
+	font-size: 1.2em;
+  text-align: left;
+  border-bottom: 1px solid #0099CC;
+}
+td.header span {
+  margin-left:10px; 
+}
+td.subHeader span {
+  margin-left:25px; 
+}
